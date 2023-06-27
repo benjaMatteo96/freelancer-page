@@ -1,3 +1,12 @@
+:root {
+  --body:#ffff;
+  --font:#212121;
+  --primary:#FFC107;
+  --secondary:#0097A7;
+  --gray:#757575;
+
+}
+
 html {
   font-size: 62.5%;
 }

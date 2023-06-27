@@ -44,5 +44,7 @@ body {
 .primary-nav a {
   color: var(--white);
   text-decoration: none;
+  font-size: 2rem;
+  font-weight: 700;
 }
 

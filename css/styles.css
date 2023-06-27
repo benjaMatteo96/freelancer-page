@@ -1,5 +1,5 @@
 :root {
-  --body:#ffff;
+  --white:#ffff;
   --font:#212121;
   --primary:#FFC107;
   --secondary:#0097A7;
@@ -31,6 +31,13 @@ body {
   margin: 0 auto;
 }
 
-.primary-nav {
+.nav-bg {
   background-color: var(--secondary);
+  padding: 1rem;
 }
+
+.primary-nav a {
+  color: var(--white);
+  text-decoration: none;
+}
+

@@ -26,3 +26,11 @@ body {
   font-size: 2rem;
 }
 
+.container {
+  width: 120rem;
+  margin: 0 auto;
+}
+
+.primary-nav {
+  background-color: var(--secondary);
+}

@@ -69,6 +69,14 @@ body {
 
 .hero{
   background-image: url(../img/hero.jpg);
-  /* background-repeat: no-repeat; */
   background-size: cover;
+  height: 45rem;
+  position: relative;
+}
+
+.hero-child {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
 }

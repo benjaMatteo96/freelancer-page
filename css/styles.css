@@ -84,3 +84,26 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.contact {
+  display: flex;
+  align-items: flex-end;
+}
+
+.button {
+  background-color: var(--secondary);
+  color: var(--white);
+  padding: 1rem 3rem;
+  margin-top: 2rem;
+  border-radius: .7rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  width: 90%;
+}
+@media (min-width: 720px){
+    .button {
+      width: auto;
+    }

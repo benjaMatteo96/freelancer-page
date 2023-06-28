@@ -61,3 +61,7 @@ body {
   background-color: var(--primary);
   color: var(--font);
 }
+
+.hero{
+  background-image: url(../img/hero.jpg);
+}

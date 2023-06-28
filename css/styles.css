@@ -46,13 +46,6 @@ body {
   
 }
 
-@media (min-width: 768px){
-  .primary-nav{
-    flex-direction: row;
-    justify-content: space-between;
-  }
-}
-
 .primary-nav a {
   text-align: center;
   color: var(--white);
@@ -103,7 +96,14 @@ body {
   font-weight: bold;
   width: 90%;
 }
-@media (min-width: 720px){
+
+
+  /* Media queries */
+  @media (min-width: 768px){
+    .primary-nav{
+      flex-direction: row;
+      justify-content: space-between;
+    }
     .button {
       width: auto;
     }

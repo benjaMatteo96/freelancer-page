@@ -23,6 +23,7 @@ body {
   background-image: linear-gradient(to top, var(--darkgray) 0%,var(--white) 100%);
 }
 
+
 .title {
   text-align: center;
   font-size: 3.8rem;

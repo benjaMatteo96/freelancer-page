@@ -22,7 +22,9 @@ body {
   font-family:'Roboto', sans-serif;
   background-image: linear-gradient(to top, var(--darkgray) 0%,var(--white) 100%);
 }
-
+h2, h3 {
+  text-align: center;
+}
 
 .title {
   text-align: center;

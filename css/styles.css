@@ -110,8 +110,13 @@ h2, h3 {
 /* services */
 .services {
   display: grid;
+  grid-template-columns: 1fr;
 }
-
+@media (min-width: 768px){
+    .services {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+}
   /* Media queries */
   @media (min-width: 768px){
     .primary-nav{

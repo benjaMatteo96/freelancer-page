@@ -105,6 +105,9 @@ body {
   /* prefix like webkit or moz are not necessary */
   box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.75);
 }
+.services {
+  display: grid;
+}
 
   /* Media queries */
   @media (min-width: 768px){

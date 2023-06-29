@@ -67,6 +67,7 @@ body {
   background-size: cover;
   height: 45rem;
   position: relative;
+  margin-bottom: 4rem;
 }
 
 .hero-child {

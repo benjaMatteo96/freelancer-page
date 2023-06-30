@@ -112,6 +112,20 @@ h2, h3 {
   display: grid;
   grid-template-columns: 1fr;
 }
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.service .icons {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary);
+  border-radius: 50%;
+  width: 15rem;
+  height: 15rem;
+}
 
   /* Media queries */
   @media (min-width: 768px){

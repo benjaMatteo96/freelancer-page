@@ -142,6 +142,15 @@ h2, h3 {
 }
 .form fieldset { 
   border: none;
+  
+}
+
+.form legend {
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--primary);
+  margin: 0 auto;
+  margin-bottom: 2rem;
 }
   /* Media queries */
   @media (min-width: 768px){

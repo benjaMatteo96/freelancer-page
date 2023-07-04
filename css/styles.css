@@ -135,7 +135,7 @@ h2, h3 {
 
 .form {
   background-color: var(--gray);
-  width: min(60rem, 100%); /* Pick the small value */
+  width: min(60rem, 100%); /* Pick the small value;Ahorra algunos mediaQueries*/
   margin: 0 auto;
   padding: 2rem;
   
